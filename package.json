@@ -3,8 +3,7 @@
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack",
-    "watch": "webpack --watch",
-    "postbuild": "npx copyfiles 'style.css' dist/"
+    "watch": "webpack --watch"
   },
   "dependencies": {
     "nanoid": "^3.1.28",
